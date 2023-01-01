@@ -1,6 +1,6 @@
 #Play With Node JS
 
-**Node**
-**Express**
-**MongoDB**
+**Node**,
+**Express**,
+**MongoDB**,
 **React**
