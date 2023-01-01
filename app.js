@@ -1,16 +1,14 @@
-const Circle = require("./circle");
+const http = require('http');
+const PORT = 3000;
 
-const circle = new Circle;
-console.log(circle.area(5));
+const server = http.createServer((req, res) => {
 
-// const http = require('http');
+    res.writeHead(200, {"Content-Type": "application/json"});
+    res.end(JSON.stringify({
+        data : "Hello world"
+    }))
+});
 
-// const server = http.createServer((req, res) => {
+console.log(`server is running on port : ${PORT}`);
 
-//     res.writeHead(200, {"Content-Type": "application/json"});
-//     res.end(JSON.stringify({
-//         data : "Hello world"
-//     }))
-// });
-
-// server.listen(3000);
+server.listen(PORT);

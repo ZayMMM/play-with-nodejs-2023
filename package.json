@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "This is Node JS",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZayMMM/play-with-nodejs-2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZayMMM/play-with-nodejs-2023/issues"
+  },
+  "homepage": "https://github.com/ZayMMM/play-with-nodejs-2023#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
