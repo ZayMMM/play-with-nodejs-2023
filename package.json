@@ -4,7 +4,7 @@
   "description": "This is Node JS",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon main.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/ZayMMM/play-with-nodejs-2023#readme",
   "dependencies": {
-    "nodemon": "^2.0.20"
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
   }
 }
